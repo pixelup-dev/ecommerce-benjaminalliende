@@ -267,7 +267,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/Materiales/MaterialesBO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/Materiales/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "materiales02",
@@ -278,7 +278,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/Materiales02/Materiales02BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/Materiales02/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto01",
@@ -289,7 +289,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto01/SinFoto01BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto01/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto02",
@@ -300,7 +300,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto02/SinFoto02BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto02/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto03",
@@ -311,7 +311,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto03/SinFoto03BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto03/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto04",
@@ -322,7 +322,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto04/SinFoto04BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto04/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto05",
@@ -333,7 +333,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto05/SinFoto05BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto05/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto06",
@@ -344,7 +344,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto06/SinFoto06BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto06/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto07",
@@ -355,7 +355,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto07/SinFoto07BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto07/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto08",
@@ -366,7 +366,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto08/SinFotoBO08'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto08/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto09",
@@ -377,7 +377,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto09/SinFoto09BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto09/Preview'),
     showInHome: true,
-    showInAbout: false,
+        showInAbout: true,
   },
   {
     id: "sinFoto10",
@@ -388,7 +388,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto10/SinFoto10BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto10/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto11",
@@ -399,7 +399,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto11/SinFoto11BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto11/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto12",
@@ -410,7 +410,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto12/SinFoto12BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto12/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto13",
@@ -421,7 +421,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto13/SinFoto13BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto13/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "sinFoto14",
@@ -432,7 +432,7 @@ export const availableComponents: ComponentConfig[] = [
     backComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto14/SinFoto14BO'),
     previewComponent: () => import('@/components/PIXELUP/SinFoto/SinFoto14/Preview'),
     showInHome: true,
-    showInAbout: false,
+    showInAbout: true,
   },
   {
     id: "servicios01",
