@@ -13,7 +13,7 @@ import type { ComponentType } from "react";
 export const globalConfig: GlobalConfig = {
   activeFooter: "Footer01",
   activeNavbar: "Navbar01",
-  activeProductCard: "ProductCard02",
+  activeProductCard: "ProductCard03",
   activeProductDetail: "ProductDetail04",
   whatsappButton: {
     isActive: true,
