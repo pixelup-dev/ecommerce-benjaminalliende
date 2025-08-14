@@ -258,7 +258,7 @@ const Hero01BO: React.FC = () => {
       id="banner"
       className="w-full"
     >
-      <section className="w-full bg-foreground/5">
+      <section className="w-full ">
         <div className="text-gray-600 body-font">
           {bannerData && (
             <div className="container py-10 mx-auto flex flex-col items-center space-y-6 md:space-y-0 md:flex-row md:space-x-4 max-w-3xl">

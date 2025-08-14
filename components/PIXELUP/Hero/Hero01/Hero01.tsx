@@ -65,7 +65,7 @@ const Hero01: React.FC = () => {
   }
 
   return (
-    <section className="w-full bg-gray-100">
+    <section className="w-full ">
       <div className="text-gray-600 body-font">
         {bannerData && (
           <div className="max-w-6xl mx-auto w-full px-4 md:px-0 py-8 lg:py-24 flex flex-col-reverse lg:flex-row items-center justify-center">
