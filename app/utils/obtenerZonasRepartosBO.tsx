@@ -1,0 +1,23 @@
+import axios from "axios";
+
+export const obtenerZonasRepartosBO = async (
+  PageNumber: any,
+  PageSize: any,
+  token: any
+) => {
+  try {
+    const response = await axios.get(
+      `${process.env.NEXT_PUBLIC_API_URL_BO_CLIENTE}/api/v1/shipping-zones?&pageNumber=${PageNumber}&pageSize=${PageSize}&statusCode=ACTIVE&siteId=${process.env.NEXT_PUBLIC_API_URL_SITEID}`,
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    return response.data;
+  } catch (error) {
+    console.error("Error al obtener el usuario: " + error);
+    throw error;
+  }
+};

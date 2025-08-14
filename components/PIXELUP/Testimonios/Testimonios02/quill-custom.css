@@ -1,0 +1,24 @@
+.ql-editor {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+  
+  .ql-editor p {
+    margin-bottom: 0.5em !important;
+  }
+  
+  /* Estilos para el contenido renderizado */
+  .testimonio-content p {
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+    margin-bottom: 0.5em !important;
+  }
+  
+  /* Estilo para el texto small */
+  .ql-editor .ql-size-small {
+    font-size: 12px !important;
+  }
+  
+  .testimonio-content .ql-size-small {
+    font-size: 12px !important;
+  }
