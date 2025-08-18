@@ -27,6 +27,8 @@ import Hero02 from "@/components/PIXELUP/Hero/Hero02/Hero02";
 import Hero03 from "@/components/PIXELUP/Hero/Hero03/Hero03";
 import Hero04 from "@/components/PIXELUP/Hero/Hero04/Hero04";
 import MarqueeTOP from "@/components/conMantenedor/MarqueeTOP";
+import ContactForm from "@/components/Core/ContactForm/Home";
+
 import FeedRRSS from "@/components/PIXELUP/FeedRRSS/FeedRRSS";
 import {
   fetchHomeConfig,
@@ -112,6 +114,11 @@ export default async function Page() {
       <>
         <DynamicNavbar />
         <DynamicHomeComponents config={homeConfig} />
+        <Suspense fallback={<div className="h-48 animate-pulse bg-gray-100" />}>
+    <div id="contacto" >
+      <ContactForm />
+      </div>
+    </Suspense>
         <DynamicFooter />
         <WhatsAppButton />
       </>
