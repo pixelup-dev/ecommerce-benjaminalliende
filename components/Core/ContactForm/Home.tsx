@@ -92,7 +92,7 @@ function ContactForm() {
       <div className="relative z-10 w-full max-w-xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-2xl lg:text-3xl font-light text-white">
-            Agenda tu Consulta
+            Contacto
           </h2>
           <div className="text-white text-sm lg:text-base max-w-2xl mx-auto">
             Completa el formulario y nos pondremos en contacto contigo a la
