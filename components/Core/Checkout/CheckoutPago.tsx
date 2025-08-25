@@ -223,7 +223,7 @@ function CheckoutPago() {
         ////////////////TRANSBANK////////////////////////////
         ////////////////////////////////////////////////////
 
-        /*   alert(updateOrderData.transaction.token);  */
+          alert(updateOrderData.transaction.token);  
 
         // Marca la orden como enviada
         setOrderSubmitted(true);
